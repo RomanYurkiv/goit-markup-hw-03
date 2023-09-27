@@ -1,10 +1,25 @@
-body {font-family: 'Roboto',sans-serif;
+body {
+    font-family: 'Roboto', sans-serif;
     background-color: #FFF;
     color: #434455;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
 ul {
     list-style: none;
+    padding-left: 0;
 }
 
 a {
@@ -12,6 +27,14 @@ a {
 }
 
 /* header */
+
+.header {
+    padding-bottom: 25.5px;
+}
+
+.nav {
+    padding-top: 25.5px;
+}
 
 .header-logo {
     color: #4D5AE5;
@@ -24,7 +47,7 @@ a {
 }
 
 .header-span {
-    color:#2E2F42;
+    color: #2E2F42;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -70,6 +93,8 @@ address {
 
 .main-section {
     background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .main-title {
@@ -78,7 +103,9 @@ address {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    margin-bottom: 48px;
+    max-width: 496px;
 }
 
 .order-button {
@@ -88,6 +115,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+
 }
 
 .order-button:hover {
@@ -100,7 +128,10 @@ address {
 
 /* Skill Section */
 
-.skills-section {}
+.skills-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .skill-name {
     color: #2E2F42;
@@ -108,6 +139,7 @@ address {
     font-weight: 500;
     line-height: 1.20;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .skill-description {
@@ -120,10 +152,17 @@ address {
 
 .team-section {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-member {
     background-color: #FFFFFF;
+}
+
+.team-member-name {
+    margin-top: 32px;
+    margin-bottom: 8px;
 }
 
 .team-title {
@@ -134,6 +173,7 @@ address {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .team-member-name {
@@ -152,6 +192,11 @@ address {
 
 /* Portfolio Section */
 
+.portfolio-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .portfolio-title {
     color: #2E2F42;
     text-align: center;
@@ -160,6 +205,7 @@ address {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .portfolio-name {
@@ -182,6 +228,8 @@ address {
 
 .footer {
     background-color: #2e2f42;
+    padding-top: 101.5px;
+    padding-bottom: 100px;
 }
 
 .footer-logo {
@@ -192,6 +240,7 @@ address {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 17.5px;
 }
 
 .footer-span {
@@ -201,7 +250,7 @@ address {
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
-        text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 .footer-text {
@@ -211,3 +260,10 @@ address {
 }
 
 /* -------- */
+
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
