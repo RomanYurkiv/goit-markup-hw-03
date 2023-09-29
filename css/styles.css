@@ -38,7 +38,6 @@ a {
 
 .header-container {
     display: flex;
-    padding: 24px 0;
     
 }
 
@@ -74,8 +73,6 @@ a {
     display: flex;
     gap: 40px;
     margin: 0 auto;
-    margin-left: 72px;
-        padding: 24px 0;
 }
 
 .header-link {
@@ -83,6 +80,7 @@ a {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .header-link:hover,
@@ -92,6 +90,7 @@ a {
 
 address {
     font-style: normal;
+    margin-left: auto;
 }
 
 .address-list {
@@ -100,12 +99,10 @@ address {
     padding-top: 24px;
     padding-bottom: 24px;
     margin: 0 auto;
-    margin-left: 332px;
 }
 
 .email {
     color: #434455;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
