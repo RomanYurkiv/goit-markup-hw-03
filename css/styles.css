@@ -96,8 +96,6 @@ address {
 .address-list {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
     margin: 0 auto;
 }
 
@@ -105,6 +103,9 @@ address {
     color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: block;
 }
 
 .email:hover,
@@ -193,6 +194,7 @@ address {
 .skills-list {
     display: flex;
     gap: 24px;
+    margin: 0;
 }
 
 .skill-item {
@@ -357,7 +359,6 @@ address {
     line-height: 1.50;
     letter-spacing: 0.02em;
     max-width: 264px;
-    margin-top: 17.5px;
 }
 
 /* -------- */
